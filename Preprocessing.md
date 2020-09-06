@@ -1,6 +1,6 @@
 # Preprocessing
 
-As we are dealing with Natural Language Data, the cleaning process is bit different than usual numbers data. Here we first divied whole sentences in to small pieces of words using Tokenization method.   
+As we are dealing with Natural Language Data, the cleaning process is bit different than usual numbers data. Here we first divied whole sentences in to small pieces of words using Tokenization method.  
 1. **Tokenization**: Tokenization is to convert sentences to words. It is the process of dividing text into a set of meaningful pieces. These pieces are called *tokens*. We can divide a chunk of text into words, or we can divide it into sentences. Depending on the task at hand, we can define our own conditions to divide the input text into meaningful tokens. Let's take a look at how to do this.
 
 After Tokenization, we need to make all the words in lower-case alphabets as strings can be case-sensitive and to avoid the problem of word duplication with upper and lower cases.  
