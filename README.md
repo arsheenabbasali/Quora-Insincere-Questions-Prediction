@@ -1,10 +1,10 @@
 # Overview
 
-## [Preprocessing](Quora-Insincere-Questions-Prediction/Preprocessing.md)
+## [Preprocessing](../Preprocessing.md)
 
-## [Model Building](Quora-Insincere-Questions-Prediction/Model Building.md)
+## [Model Building](../Model Building.md)
 
-## [Conclusion](Quora-Insincere-Questions-Prediction/Conclusion.md)
+## [Conclusion](../Conclusion.md)
 
 ### Introduction 
 How to handle negative and divisive content online is a serious problem for any major website today. Quora wants to address this issue to keep its site a place where users can freely share their knowledge without having to face online toxicity. 
