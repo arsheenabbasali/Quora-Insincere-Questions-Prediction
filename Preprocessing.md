@@ -16,4 +16,4 @@ It is a very important step in Natural Language data cleaning where we Stem the 
 5. **Stemming**: Stemming is the process of reducing inflection in words to their root forms such as mapping a group of words to the same stem even if the stem itself is not a valid word in the Language. Stemming is the process of producing morphological variants of a root/base word. 
 
 The last step is to vectorize each word.  
-6. **Vectorization**: Vectorization is used to speed up the Python code without using loop.  - Using such a function can help in minimizing the running time of code efficiently. Example: ‘call’ = 4.568351 
+6. **Vectorization**: Vectorization is used to speed up the Python code without using loop.  - Using such a function can help in minimizing the running time of code efficiently.
