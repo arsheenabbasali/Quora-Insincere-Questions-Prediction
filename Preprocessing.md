@@ -57,12 +57,15 @@ The last step is to vectorize each word.
 ```Python
 # Test_Train Split
 X_train, X_test, y_train, y_test = train_test_split(TrainingData['Tokens'], TrainingData['target'], test_size=0.33, random_state=42)
+
 # CountVectorizer
 CV = CountVectorizer(min_df=5, stop_words='english')
 Vectorizer = CV.fit(TrainingData['Tokens'])
+
 # documents-terms matrix of training and testing set
 X_vect_train = Vectorizer.transform(X_train) 
 X_vect_test = Vectorizer.transform(X_test) 
+
 # TF-IDF Transformer
 tf_train_transformer = TfidfTransformer(use_idf=True).fit(X_vect_train)
 tf_test_transformer =  TfidfTransformer(use_idf=True).fit(X_vect_test)
