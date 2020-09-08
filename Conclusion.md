@@ -2,8 +2,8 @@
 
 Our main objective in this project is to predict whether question is sincere or insincere by reducing bias and variance among different base classifiers. Thus, we have employed Ensemble Method to combie similar or conceptually different learning classifiers via majority or plurality voting. Below is the comparison of the the output of the above-mentioned base models with Ensemble Voting classifier: 
 
-|Accuracy|	F Score|	Model|	Precision	Recall|
-|----------|----|--------|-----------------|
+|Accuracy|	F Score|	Model|	Precision	|Recall|
+|----------|----|--------|----------|-------|
 |0.945506	|0.637851	|Naive Bayes	|0.818340	|0.594740|
 |0.939035	|0.484280	|Random Forest|	0.469518|	0.500000|
 |0.951858	|0.739748	|Logistic Regression	|0.819533|	0.695003|
