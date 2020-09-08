@@ -1,3 +1,9 @@
+## [Overview](README.md)
+
+## [Preprocessing](Preprocessing.md)
+
+## [Model Building](Model%20Building.md)
+
 # Conclusion
 
 Our main objective in this project is to predict whether question is sincere or insincere by reducing bias and variance among different base classifiers. Thus, we have employed Ensemble Method to combie similar or conceptually different learning classifiers via majority or plurality voting. Below is the comparison of the the output of the above-mentioned base models with Ensemble Voting classifier: 
